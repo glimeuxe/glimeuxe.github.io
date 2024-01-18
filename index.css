@@ -1,0 +1,24 @@
+hero {
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+hero img {
+	width: 24rem;
+	height: 24rem;
+	border-radius: 50%;
+	margin-bottom: 4rem;
+}
+
+socials {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	margin-top: 4rem;
+}
+
+socials a:not(:last-child) {
+	margin-right: 2rem;
+}
