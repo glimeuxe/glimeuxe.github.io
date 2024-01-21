@@ -3,6 +3,9 @@ hero {
 	flex-flow: column wrap;
 	justify-content: center;
 	align-items: center;
+	text-align: center;
+
+	width: 48rem;
 }
 
 hero img {
