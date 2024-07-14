@@ -103,12 +103,11 @@ nav burger burger-icon {
 	position: relative;
 	display: block;
 
-	top: 50%;
-	margin-top: -0.5rem;
+	top: calc(50% - 0.4rem);
 	margin-left: auto;
 	margin-right: auto;
-	width: 2.5rem;
-	height: 2.5rem;
+	width: 2.4rem;
+	height: 0.8rem;
 }
 
 nav burger burger-icon .bar {
@@ -183,11 +182,11 @@ nav.nav-opened burger burger-icon .bar {
 }
 
 nav.nav-opened burger burger-icon .bar.bar-top {
-	transform: translateY(0.4rem) rotate(45deg);
+	transform: translateY(0.35rem) rotate(45deg);
 }
 
 nav.nav-opened burger burger-icon .bar.bar-bottom {
-	transform: translateY(0.3rem) rotate(-45deg);
+	transform: translateY(0.25rem) rotate(-45deg);
 }
 
 nav.nav-opened ul li {
@@ -270,7 +269,7 @@ h1 {
 }
 
 p {
-	font-size: 1.5rem;
+	font-size: 1.6rem;
 	font-weight: 300;
 	line-height: 3rem;
 	color: var(--text);
