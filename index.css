@@ -31,7 +31,7 @@ body {
 	flex-direction: row;
 
 	height: 16rem;
-	max-width: 80%;
+	width: min(40rem, 80%);
 }
 
 nav {
