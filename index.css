@@ -36,7 +36,7 @@ body {
 }
 
 nav {
-	padding-right: 2rem;
+	padding-right: 1.5rem;
 
 	border-right: 1px solid rgb(229, 229, 229);
 	display: flex;
@@ -46,7 +46,7 @@ nav {
 }
 
 main {
-	padding-left: 2rem;
+	padding-left: 1.5rem;
 
 	display: flex;
 	flex-direction: column;
